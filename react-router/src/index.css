@@ -1,3 +1,4 @@
+/* index.css */
 * {
   font-family: arial, sans-serif;
   margin: 0;
@@ -28,6 +29,23 @@ body > div {
   align-items: center;
   justify-content: center;
 }
+#footer {
+  padding: 1em;
+  background-color: #333;
+  color: white;
+  justify-content: space-evenly;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+#footer a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+#footer a:hover {
+  color: #ddd;
+}
 .red {
   background-color: #b05f6d;
   color: white;
@@ -35,4 +53,15 @@ body > div {
 .blue {
   background-color: #275db3;
   color: white;
+}
+.yellow {
+  background-color: #f1c40f;
+  color: white;
+}
+.green {
+  background-color: #2ecc71;
+  color: white;
+}
+.home {
+  background-color: #a3d5d3; /* Choose your preferred color */
 }
